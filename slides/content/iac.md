@@ -4,9 +4,9 @@
 
 ## Hva er Infrastructure as Code (IaC)?
 
-* Håndtering av og provisjonering av infrastruktur gjennom kode i stedet for manuelle prosesser
-* Infrastrukturen er beskrevet i konfigurasjonsfiler
-* Versjonert og revidert, for å unngå udokumenterte og uønskede endringer
+* Håndtering av og provisjonering av infrastruktur gjennom kode i stedet for manuelle prosesser<!-- .element: class="fragment" -->
+* Infrastrukturen er beskrevet i konfigurasjonsfiler<!-- .element: class="fragment" -->
+* Versjonert og revidert, for å unngå udokumenterte og uønskede endringer<!-- .element: class="fragment" -->
 
 ---
 
@@ -16,31 +16,31 @@
 
 ## Bakdeler med manuell provisjonering
 
-* Mange klikk for å opprette nye ressurser eller gjøre endringer, mange mulige feilkilder
-* Vanskelig å få oversikt over alle komponentene man har (og hvordan de henger sammen)
-* Nesten umulig å «kopiere» et miljø
-* Dårlig sporbarhet - hvem gjorde hva når?
+* Mange klikk for å opprette nye ressurser eller gjøre endringer, mange mulige feilkilder<!-- .element: class="fragment" -->
+* Vanskelig å få oversikt over alle komponentene man har (og hvordan de henger sammen)<!-- .element: class="fragment" -->
+* Nesten umulig å «kopiere» et miljø<!-- .element: class="fragment" -->
+* Dårlig sporbarhet - hvem gjorde hva når?<!-- .element: class="fragment" -->
 
 ---
 
 ## Fordeler med IaC
 
-* Infrastrukturen er automatisk dokumentert i kode
-* Miljøene settes opp likt hver gang! F.eks dev, test, prod
-* Færre menneskelige feilkilder (som ikke oppdages i code review)
-* Disaster recovery ... 😱
+* Infrastrukturen er automatisk dokumentert i kode<!-- .element: class="fragment" -->
+* Miljøene settes opp likt hver gang! F.eks dev, test, prod<!-- .element: class="fragment" -->
+* Færre menneskelige feilkilder (som ikke oppdages i code review)<!-- .element: class="fragment" -->
+* Disaster recovery ... 😱<!-- .element: class="fragment" -->
 
 ---
 
 ## Bakdeler?
 
-* Det krever litt å komme i gang med
-* Tar lenger tid å sette opp enn å bare opprette i portalen
-* Helt nytt fagfelt å rive seg i håret av
+* Det krever litt å komme i gang<!-- .element: class="fragment" -->
+* Tar lenger tid å sette opp enn å bare opprette i portalen<!-- .element: class="fragment" -->
+* Helt nytt fagfelt å rive seg i håret av<!-- .element: class="fragment" -->
 
 ---
 
-## Men!<!-- .element: class="fragment" -->
+## Men
 
 ## IaC er best uansett altså<!-- .element: class="fragment" -->
 

@@ -1,30 +1,22 @@
 # Terraform
 
-* Deklarativt IaC-verktøy
-* Open source og gratis
-* Skyuavhengig
-* Haugevis av providers
+* Deklarativt IaC-verktøy<!-- .element: class="fragment" -->
+* Open source og gratis<!-- .element: class="fragment" -->
+* Skyuavhengig<!-- .element: class="fragment" -->
+* Haugevis av providers<!-- .element: class="fragment" -->
+* Egen syntaks: HCL<!-- .element: class="fragment" -->
 
 ---
 
-## Et lite utvalg
+## Et lite utvalg providers
 
-* Azure (RM)
-* Amazon Web Services (AWS)
-* Google Cloud Platform
-* Azure Active Directory
-* Kubernetes
-* VMware vSphere
-* ++++
-
----
-
-## I korte trekk
-
-* Infrastruktur definert i kode
-* Lagret i kildekode
-* Idempotent og konsistent
-* Egen syntaks: HCL
+* Azure (RM)<!-- .element: class="fragment" -->
+* Amazon Web Services (AWS)<!-- .element: class="fragment" -->
+* Google Cloud Platform<!-- .element: class="fragment" -->
+* Azure Active Directory<!-- .element: class="fragment" -->
+* Kubernetes<!-- .element: class="fragment" -->
+* VMware vSphere<!-- .element: class="fragment" -->
+* ++++<!-- .element: class="fragment" -->
 
 ---
 

@@ -6,4 +6,4 @@
 
 ## IaC med Terraform ++
 
-### @tkalve
+### Thomas K
