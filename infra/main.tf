@@ -37,10 +37,10 @@ resource "azurerm_mssql_server" "this" {
   administrator_login_password = "correct horse battery staple!1"
 }
 
-# resource "azurerm_mssql_database" "this" {
-#   name      = "vinlotteridb"
-#   server_id = azurerm_mssql_server.this.id
-#   sku_name  = "S0"
+resource "azurerm_mssql_database" "this" {
+  name      = "vinlotteridb"
+  server_id = azurerm_mssql_server.this.id
+  sku_name  = "S0"
 
-#   tags = local.tags
-# }
+  tags = local.tags
+}
