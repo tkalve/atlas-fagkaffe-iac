@@ -2,9 +2,14 @@ name: 'Terraform'
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths:
+    - 'infra/**'
+
   pull_request:
+    paths:
+    - 'infra/**'
+    - '.github/workflows/terraform.yml'
 
 jobs:
   terraform:
@@ -77,7 +82,7 @@ jobs:
             repo: context.repo.repo,
             body: output
           })
-    
+
     - name: Terraform Plan Status
       if: steps.plan.outcome == 'failure'
       run: exit 1
